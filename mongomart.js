@@ -266,11 +266,4 @@ MongoClient.connect('mongodb://deebodiong:jhlfd1974@ds141450.mlab.com:41450/mong
     
     // Use the router routes in our application
     app.use('/', router);
-
-    // Start the server listening
-    var server = app.listen(41450, function() {
-        var port = server.address().port;
-        console.log('Mongomart server listening on port %s.', port);
-    });
-
 });
