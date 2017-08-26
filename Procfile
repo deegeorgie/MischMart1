@@ -1,1 +1,1 @@
-web: mongomart.js
+web: node mongomart.js
