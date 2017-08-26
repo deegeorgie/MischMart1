@@ -35,7 +35,9 @@ var ITEMS_PER_PAGE = 5;
 // Hardcoded USERID for use with the shopping cart portion
 var USERID = "558098a65133816958968d88";
 
-MongoClient.connect('mongodb://deebodiong:jhlfd1974@ds141450.mlab.com:41450/mongomart', function(err, db) {
+var uri = 'mongodb://deebodiong:jhlfd1974@ds141450.mlab.com:41450/mongomart'
+
+MongoClient.connect(uri, function(err, db) {
     "use strict";
 
     assert.equal(null, err);
@@ -266,4 +268,11 @@ MongoClient.connect('mongodb://deebodiong:jhlfd1974@ds141450.mlab.com:41450/mong
     
     // Use the router routes in our application
     app.use('/', router);
+    
+    // Start the server listening
+    var server = app.listen(41450, function() {
+        var port = server.address().port;
+        console.log('Mongomart server listening on port %s.', port);
+    });
+
 });
