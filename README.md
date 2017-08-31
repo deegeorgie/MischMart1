@@ -1,6 +1,6 @@
 # MischMart1
 
-** Introduction **
+**Introduction**
 
 MischMart is a small retail application that intends to let the user do the following:
 
@@ -9,6 +9,6 @@ MischMart is a small retail application that intends to let the user do the foll
 - Add products to his cart
 - Checkout using the popular Stripes application.
 
-** Design and implementation **
+**Design and implementation**
 
 
