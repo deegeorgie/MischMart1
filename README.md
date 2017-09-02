@@ -30,3 +30,5 @@ For the templating, I used the *html* template engine. And the client side was f
 **Here are a few screenshots**
 
 ![Web app without data](m1.PNG)
+![Web app2](m2.PNG)
+![web app3](m3.PNG)
