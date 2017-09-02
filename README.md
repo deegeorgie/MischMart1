@@ -29,4 +29,4 @@ For the templating, I used the *html* template engine. And the client side was f
 
 **Here are a few screenshots**
 
-![Web app without data](/https://github.com/deegeorgie/MischMart1/data/m1.PNG)
+! [Web app without data](/MischMart1/data/m1.PNG)
