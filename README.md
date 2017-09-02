@@ -16,6 +16,8 @@ I started the project by exploring [Dribbble](https://dribbble.com/) and other r
 - The [Justinmind prototyper](https://www.justinmind.com/) for the web application
 - [Ionic Creator](https://creator.ionic.io/share/0990d92231a7) for the mobile app
 
+However, the look and feel of the app changed along the way...
+
 After this stage, I scaffolded my express application using the application generation tool (*express-generator*). I then reorganized the directory structure to suit my needs. 
 
 I started building the application from the backend by creating schemas and a mongodb database locally. I added mock products to my database for testing purposes. The reason for my using a NOSQL database is simply that I don't have a thorough knowledge of relational databases (though I somtimes use SQLite). 
