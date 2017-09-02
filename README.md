@@ -11,7 +11,10 @@ MischMart is a small retail application that intends to let the user do the foll
 
 **Design and implementation**
 
-I started the project by exploring [Dribbble](https://dribbble.com/) and other retail apps on the web such as [Aliexpress](https://www.aliexpress.com) to try and draw inspiration from these. Along the way, I inspected the HTML code and jotted down details about certain elements that could be reused in my own app. This permitted me to land a simple visual design with basic functionalities. 
+I started the project by exploring [Dribbble](https://dribbble.com/) and other retail apps on the web such as [Aliexpress](https://www.aliexpress.com) to try and draw inspiration from these. Along the way, I inspected the HTML code and jotted down details about certain elements that could be reused in my own app. This permitted me to land a simple visual design with basic functionalities. I made use of the following tools to design my prototypes:
+
+- The [Justinmind prototyper](https://www.justinmind.com/) for the web application
+- [Ionic Creator](https://creator.ionic.io/share/0990d92231a7) for the mobile app
 
 After this stage, I scaffolded my express application using the application generation tool (*express-generator*). I then reorganized the directory structure to suit my needs. 
 
