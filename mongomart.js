@@ -14,6 +14,7 @@ app.set('view engine', 'html');
 app.set('views', __dirname + '/views');
 app.use('/static', express.static(__dirname + '/static'));
 app.use(bodyParser.urlencoded({ extended: true }));
+app.set('port', (process.env.PORT || 3000));
 
 
 /*
@@ -270,9 +271,12 @@ MongoClient.connect(uri, function(err, db) {
     app.use('/', router);
     
     // Start the server listening
-    var server = app.listen(3000, function() {
-    var port = server.address().port;
-        console.log('Mongomart server listening on port %s.', port);
-    });
+    //var server = app.listen(3000, function() {
+    //var port = server.address().port;
+    //    console.log('Mongomart server listening on port %s.', port);
+    //});
+    app.listen(app.get('port'), function() {
+    console.log('Mongomart app is running on port', app.get('port'));
+});
 
 });
