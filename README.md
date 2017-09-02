@@ -30,5 +30,5 @@ For the templating, I used the *html* template engine. And the client side was f
 **Here are a few screenshots**
 
 <p align="center">
-  <img source="MischMart1/data/m1.PNG"/>
+  <img source="https://github.com/deegeorgie/MischMart1/data/m1.PNG"/>
   </p>
