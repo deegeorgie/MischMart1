@@ -29,4 +29,6 @@ For the templating, I used the *html* template engine. And the client side was f
 
 **Here are a few screenshots**
 
-! [Web app without data](/MischMart1/data/m1.PNG)
+<p align="center">
+  <img source="MischMart1/data/m1.PNG"/>
+  </p>
