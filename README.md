@@ -24,3 +24,9 @@ I started building the application from the backend by creating schemas and a mo
 
 I implemented the business logic in NodeJS. But I didn't write all the code from scratch which would have been tedious. I adapted parts 
 of it from various sources, including the [MongoDB for NodeJS developers](https://university.mongodb.com/courses/M101JS/about) course by the [MongoDB University](https://university.mongodb.com/) which I recently completed. Of course, it is always good practice to reuse code where possible. 
+
+For the templating, I used the *html* template engine. And the client side was formatted using html5 and Twitter Bootstrap.
+
+**Here are a few screenshots**
+
+![Web app without data](data/m1.png)
