@@ -7,7 +7,7 @@ MischMart is a small retail application that intends to let the user do the foll
 - Browse products by categories
 - Log in using OpenID
 - Add products to his cart
-- Checkout using the popular Stripes application.
+- Checkout
 
 **Design and implementation**
 
@@ -32,3 +32,7 @@ For the templating, I used the *html* template engine. And the client side was f
 ![Web app without data](m1.PNG)
 ![Web app2](m2.PNG)
 ![web app3](m3.PNG)
+
+**Conclusion**
+
+Admittedly, I was too ambitious by choosing such a big project in the first place. Looking back, my opinion is that I should have done simple for the sake of this course. I'm saying this because I came out with a partially working application. Many of the functionalities are yet to be implemented. And of course, I will continue working on it.
